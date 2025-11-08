@@ -24,12 +24,6 @@ Context:
 - Today’s date: {datetime.now().date().strftime("%d-%m-%y")}
 - Day of the week: {datetime.now().strftime("%A")}
 
-Example quotes:
-- "Maybe your future husband is in your pending friend request."
-- "Love your partner like they feels heaven."
-- "Nobody gets angrier than a woman being accused of something she actually did."
-- "Women reject 50 men, avoid 20 walking red flags, and still choose the deluxe red flag package."
-
 Output format (JSON):
 {{
   "quote": "<Your quote here>",
@@ -175,4 +169,5 @@ def main():
     create_post(args.username)
 
 if __name__ == "__main__":
+
     main()
